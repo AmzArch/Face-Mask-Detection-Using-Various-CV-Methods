@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+Packages required to run this application:
+pip install dlib
+pip install tensorflow
+pip install opencv-python
+pip install numpy
+
+
+s_14.py is the Python application that uses the three methods to run face mask detection on either webcam feed or dataset
+Usage (run detection on webcam): python3 s_14.py 1
+OR
+Usage (run detection on dataset): python3 s_14.py 0 <img folder>
+The img folder has to contain two folders, one is called "without_mask" and one is called "with_mask", which contain images for each class accordingly
+
+
+Three individual folders contain training code and models for each method
+
+Datasets can be found below:
+Dataset1:
+https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
+Dataset2:
+https://github.com/prajnasb/observations/tree/master/experiements/data
+Dataset3:
+https://www.kaggle.com/datasets/vijaykumar1799/face-mask-detection
+Validation Dataset (Dataset4):
+https://www.kaggle.com/prithwirajmitra/covid-face-mask-detection-dataset
+IBUG:
+=======
+Packages required to run this application:
+pip install dlib
+pip install tensorflow
+pip install opencv-python
+pip install numpy
+
+
+s_14.py is the Python application that uses the three methods to run face mask detection on either webcam feed or dataset
+Usage (run detection on webcam): python3 s_14.py 1
+OR
+Usage (run detection on dataset): python3 s_14.py 0 <img folder>
+The img folder has to contain two folders, one is called "without_mask" and one is called "with_mask", which contain images for each class accordingly
+
+
+Three individual folders contain training code and models for each method
+
+Datasets can be found below:
+Dataset1:
+https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
+Dataset2:
+https://github.com/prajnasb/observations/tree/master/experiements/data
+Dataset3:
+https://www.kaggle.com/datasets/vijaykumar1799/face-mask-detection
+Validation Dataset (Dataset4):
+https://www.kaggle.com/prithwirajmitra/covid-face-mask-detection-dataset
+IBUG:
+>>>>>>> 11fd166 (Adding Files)
+https://ibug.doc.ic.ac.uk/resources/300-W
